@@ -13,7 +13,7 @@ The application has the following components:
 * Implement all component lifecycle-hooks in the root component and write down:
   * Which component lifecycle-hook triggers when the application loads?
   * Which component lifecycle-hook triggers during the change detection cycle?
-* Implement `OnChanges` and `DoCheck` and `AfterViewChecked` interfaces for the children components in the previous application. 
+* Implement `OnChanges` and `DoCheck` interfaces for the children components in the previous application. 
 * Notice when each hook is triggered. Write down your results.
 * Optimize the application performance so any child component does not have to be included in the change detection cycle unless their input value has changed. 
 * Write down which component life-cycle hooks trigger for the ChildOne and ChildTwo components when the buttons are clicked.
