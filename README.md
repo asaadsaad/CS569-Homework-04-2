@@ -10,9 +10,10 @@ The application has the following components:
 * The ChildOne component will receive the root component state `{ChildOne: 0}` and display it.
 * The ChildTwo component will receive the root component state `{ChildTwo: 0}` and display it.
 ## Create `results.md` file and write down your answer
-* Which component lifecycle-hook triggers when the application loads?
-* Which component lifecycle-hook triggers during the change detection cycle?
+* Implement all component lifecycle-hooks in the root component and write down:
+  * Which component lifecycle-hook triggers when the application loads?
+  * Which component lifecycle-hook triggers during the change detection cycle?
 * Implement `OnChanges` and `DoCheck` and `AfterViewChecked` interfaces for the children components in the previous application. 
 * Notice when each hook is triggered. Write down your results.
 * Optimize the application performance so any child component does not have to be included in the change detection cycle unless their input value has changed. 
-* Which buttons would you remove to have the application comply with your optimization? Why?
+* Write down what component life-cycle hooks trigger for the ChildOne and ChildTwo components when each of the buttons is clicked.
