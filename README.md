@@ -16,4 +16,4 @@ The application has the following components:
 * Implement `OnChanges` and `DoCheck` and `AfterViewChecked` interfaces for the children components in the previous application. 
 * Notice when each hook is triggered. Write down your results.
 * Optimize the application performance so any child component does not have to be included in the change detection cycle unless their input value has changed. 
-* Write down what component life-cycle hooks trigger for the ChildOne and ChildTwo components when each of the buttons is clicked.
+* Write down which component life-cycle hooks trigger for the ChildOne and ChildTwo components when the buttons are clicked.
